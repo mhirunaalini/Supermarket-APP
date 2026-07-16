@@ -22,9 +22,9 @@ const upload = multer({ storage: storage });
 
 // MySQL connection
 const connection = mysql.createConnection({
-  host: '127.0.0.1',
-  user: 'root',
-  password: 'RP738964$',
+  host: 'c237-adib-mysql.mysql.database.azure.com',
+  user: 'c237_019',
+  password: 'c237019@2026!',
   database: 'c237_019_team2_userdb'
 });
 
